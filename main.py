@@ -1,7 +1,7 @@
-   import yfinance as yf
-   import matplotlib
-   matplotlib.use("Agg")
-   import matplotlib.pyplot as plt
+import yfinance as yf
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
    
    from ta.momentum import RSIIndicator
    from ta.trend import MACD
